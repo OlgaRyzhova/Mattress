@@ -42,7 +42,7 @@ a {
 .logo_img{
     width: 200px;
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 70%;
     /* z-index: 1; */
 }
@@ -74,14 +74,40 @@ a {
 .option_wrapper{
     display: flex;
     font-family: 'PT Sans', Arial, sans-serif;
-        font-weight: 400;
+    font-weight: 400;
+    gap: 50px;
 }
 
-.option_list{}
+.option_list{
+    margin-top: 40px;
+}
 .option_item{
     font-family: 'PT Sans', Arial, sans-serif;
     font-weight: 400;
     color: #505971;
     text-decoration: none;
     padding-bottom: 20px;
+}
+
+.option_title{
+    text-transform: uppercase;
+}
+
+.full_img{
+    display:flex;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.key_list{
+    display: flex;
+    gap: 20px;
+}
+
+.key_item{
+    width: 30%;
+    background-color: #CAE5F3;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto 0;
 }
